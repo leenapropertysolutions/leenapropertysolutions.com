@@ -277,7 +277,7 @@
     if (!firstName) { msg.style.color='#f87171'; msg.textContent='Please enter your first name.'; return; }
     if (!email || !isValidEmail(email)) { msg.style.color='#f87171'; msg.textContent='Please enter a valid email (e.g. name@email.com).'; return; }
     if (!message) { msg.style.color='#f87171'; msg.textContent='Please enter a message.'; return; }
-    if (!consent) { msg.style.color='#f87171'; msg.textContent='Please check at least the transactional SMS consent box.'; return; }
+    if (!consent) { msg.style.color='#f87171'; msg.textContent='Please check at least the SMS Notifications and Alert consent box.'; return; }
 
     btn.disabled = true;
     btn.textContent = 'Sending…';
